@@ -1,0 +1,19 @@
+.input-group-text{
+    background:transparent;
+    border-left:transparent;  
+  }
+  
+  .input-group input{
+    border-right:transparent;
+    padding-right:0;
+  }
+  
+  input[type="text"]:focus{
+   box-shadow: rgba(13,110,253,.25);
+    clip-path: inset(-10px 0px -10px -10px); /*remueve la linea*/
+  }
+  
+  
+  .input-group-text i {
+   color:gray;
+  }
